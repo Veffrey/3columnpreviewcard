@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Nunito sans',sans-serif;
+    font-family: 'Outfit',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.cards{
+    min-height: 400px;
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.75);
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+}
+.sedans-cards{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 30px;
+    background-color: hsl(31, 77%,52%);
+}
+.suv-card{
+    padding: 30px;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-card{
+    border-bottom-right-radius:15px ;
+    border-top-right-radius: 15px;
+    padding: 30px;
+    background-color: hsl(179, 100%, 13%);
+}
+.sedan-btn button{
+    color: hsl(31, 77%,52%);
+    margin-top: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+.suv-btn button{
+    color: hsl(184, 100%, 22%);
+    margin-top: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+.luxury-btn button{
+    color: hsl(179, 100%, 13%);
+    margin-top: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+.sedan-btn button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: white;
+}
+.suv-btn button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+.luxury-btn button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+@media(max-width: 375px){
+    .cards{
+        flex-direction: column;
+        padding-top: 700px;
+        padding-bottom: 15px;
+        
+    }
+    
+
+}
