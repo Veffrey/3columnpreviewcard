@@ -83,10 +83,18 @@ body{
 @media(max-width: 700px){
     .cards{
         flex-direction: column;
-        padding-top: 350px;
-        padding-bottom: 15px;
+        padding-top: 550px;
+        padding-bottom: 50px;
+        
         
     }
-    
+    .luxury-card{
+        border-radius: 0px;
+        flex-direction: column;
+    }
+    .sedans-cards{
+        border-radius: 0px;
+        
+    }
 
 }
